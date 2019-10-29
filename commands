@@ -1,0 +1,16 @@
+# kubectl cluster-info
+
+#kubectl config view
+
+# kubectl config get-contexts
+
+# kubectl config set-context kubesys --namespace=kube-system --user=kubernetes-admin --cluster=kubenetes
+
+## switch to another context
+
+# kubectl config current-context
+
+# kubectl config use-context kubesys
+
+
+############ by using node selector, with labels you can specify pods can be created into a selected node 
